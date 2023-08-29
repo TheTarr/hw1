@@ -1,3 +1,15 @@
+import cv2
+# 加载图像并转换为灰度图像
+image = cv2.imread('sample01.jpg')
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+hist = cv2.calcHist([gray_image], [0], None, [256], [0, 256])
+# 直方图均衡化
+gray_image_eq = cv2.equalizeHist(gray_image)
+# # 直方图均衡化后的图像直方图
+# hist_eq = cv2.calcHist([gray_image_eq], [0], None, [256], [0, 256])
+
+cv2.imshow("new_rgb_pic", gray_image_eq)
+cv2.waitKey()
 
 # import cv2
 # import os
