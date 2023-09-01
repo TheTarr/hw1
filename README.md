@@ -10,4 +10,4 @@ hsv彩色增强：colour_HE.py，完成图在 hsv_enhanced
 
 # zjy colab版本
 colab代码链接
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/TheTarr/hw1/blob/zjy_colab/ntu_cv_project1_zjy.ipynb)
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ufwqFmCyXk6_5-oZwUkH2vGet8VBMA6y)
